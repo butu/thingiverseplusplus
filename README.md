@@ -24,7 +24,7 @@ Do you want to support the development of this extension?
 
 - create an issue if you have an idea for a new feature or an enhancement
 - add a new feature, bugfix or just a minor enhancement with a pull request
-- or just by me a beer [![src/src/images/beer.svg](https://paypal.me/bu2media)]
+- or just by me a beer [![Buy me a beer](src/src/images/beer.svg)](https://paypal.me/bu2media)
 
 Thank you!
 
