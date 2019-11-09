@@ -1,0 +1,258 @@
+.site-header {
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+    height: auto !important;
+
+    padding-top: 0px !important;
+    background: #fff !important;
+}
+
+.login {
+    border: none !important;
+}
+
+.login-box {
+    border: none !important;
+}
+
+.to-top {
+    background: #fff;
+    width: 4.5em !important;
+    height: 4.5em !important;
+    border-radius: 50% !important;
+    top: auto !important;
+    bottom: 20px;
+    right: 20px !important;
+    left: auto !important;
+    color: #b0b5a9;
+}
+
+.explore {
+    background: none !important;
+    padding: 20px 0 !important;
+    border: none !important;
+}
+
+.item-interactions {
+    border-top: none !important;
+}
+
+.fixed-footer .site-footer {
+    position: relative !important;
+}
+
+.notification-indicator:not([data-count="0"])::after {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+}
+
+.thing-info {
+    padding: 30px !important;
+    background: #fff !important;;
+}
+
+.search-form {
+    border-radius: 50px;
+}
+
+.search-form input[type="text"] {
+    border-radius: 50px !important;
+}
+
+.plain-nav {
+    text-transform: none !important;
+}
+
+.login .avatar-wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+.login-box {
+    padding: 8px 0 0;
+}
+
+button, .button {
+    border-radius: 50px;
+}
+
+.item-page-info h1 {
+    margin: 0;
+}
+
+.item-page-header {
+    padding-top: 20px;
+}
+
+.profile-card {
+    border: none;
+}
+
+.user-counts .user-count {
+    border: none;
+}
+
+.item {
+    width: 292px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 3px 20px -17px #000;
+}
+
+.basic-page .select, .basic-page select {
+    border-radius: 50px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="url"], form input[type="number"], form input[type="email"], form input[type="date"], form input[type="month"], form textarea {
+    border-radius: 50px;
+}
+
+.center_content .block_nav + .justify:last-child {
+    flex-direction: row-reverse;
+}
+
+.content_stack {
+    background: #fff;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+.center_content .block_nav + .justify:last-child .width-2.share {
+    width: 656px;
+}
+
+.taglist span, .taglist a {
+    background: #666;
+    padding: 2px 9px;
+    margin: 6px 2px 0 0;
+    border-radius: 50px;
+}
+
+.slide-controls {
+    margin-top: 23px;
+    margin-bottom: 36px;
+}
+
+.slider-control.active {
+    background: #238bfa;
+    border: none;
+}
+
+.slider-control {
+    background: #a8adb5;
+    border: none;
+}
+
+.content-box {
+    border: none;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.login-location {
+    display: none;
+}
+
+.login .dropdown-menu a.login-userinfo {
+    background: #a9b0b5;
+    color: #00000040;
+}
+
+.login-username {
+    color: #fff;
+    font-weight: bold;
+}
+
+.loginbox-section {
+    border-bottom: 1px solid #dadada;
+}
+
+.login .dropdown-menu a {
+    padding: 6px 13px;
+    margin: 0;
+}
+
+a.login-logout:before {
+    width: 34px !important;
+    background-position: 0px -43px !important;
+}
+
+.search-page #search-page-form .inline {
+    display: block;
+}
+
+.refine-results-fields {
+    width: 100%;
+}
+
+.search-page:not(.show-filter) .show-results-for *:not(button) {
+    display: none;
+}
+
+.search-page:not(.show-filter) .refine-your-search {
+    display: none;
+}
+
+.show-filter .show-results-for {
+    background: #fff;
+    padding: 30px;
+}
+
+.show-filter .refine-your-search {
+    background: #fff;
+    padding: 30px;
+}
+
+.refine-results-fields input[type="text"] {
+    background: #fff;
+    width: calc(100% - 335px);
+    display: inline-block;
+    font-size: 18px;
+    height: 39px;
+    color: #666;
+    margin-right: 15px;
+}
+
+.refine-results-fields {
+    background: none;
+    padding: 0;
+}
+
+.refine-results-fields button {
+    width: 200px;
+    display: inline-block;
+    border-radius: 0 50px 50px 0;
+}
+
+.search-page-results {
+    width: auto !important;
+    padding: 0;
+    margin: 0;
+}
+
+.search-page .width-2 .justify-left .item {
+    margin-right: 47px;
+}
+
+.search-page .width-2 .justify-left .item:nth-of-type(3n) {
+    margin-right: 0 !important;
+}
+
+.search-page .width-2 .justify-left .item:nth-of-type(2n) {
+    margin-right: 47px;
+}
+
+button#toggle-search-filter {
+    width: 120px !important;
+    margin-right: 0;
+    border-radius: 50px 0 0 50px;
+}
+select.select-menu {
+    border-radius: 50px;
+}

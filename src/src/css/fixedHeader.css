@@ -1,0 +1,8 @@
+div#main {
+    padding-top: 60px;
+}
+.site-header {
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 16px 30px -28px #000000 !important;
+}

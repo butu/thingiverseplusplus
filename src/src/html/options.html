@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thingiverse ++</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/options.css">
+</head>
+<body>
+<img src="../images/thingiverse.webp" alt="Thingiverse++" class="logo">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+           aria-selected="true">Auto Login</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+           aria-selected="false">Infinite Scrolling</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+           aria-selected="false">Design</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="other-tab" data-toggle="tab" href="#other" role="tab" aria-controls="other"
+           aria-selected="false">Other</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="autologin">
+                Enable Auto Login
+                <small class="form-text text-muted">Automatically login with the following credentials when opening
+                    thingiverse.com. This compensates for the non-functional "Remember me" checkbox on the login page.
+                </small>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Username
+                <input type="email" class="form-control" placeholder="Enter username" name="username">
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="form-check-label">
+                Password
+                <input type="password" name="password" class="form-control">
+            </label>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="infinitescrolling">
+                Enable Alternative Infinite Scrolling
+                <small class="form-text text-muted">Replace the default infinite scrolling and get rid of the scroll
+                    bug. Important: Deactivate the default infinite scrolling in your thingiverse settings for this to
+                    work properly.
+                </small>
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="form-check-label">
+                Things per Page
+                <input type="number" min="1" max="40" name="itemsPerPage">
+                <small class="form-text text-muted">Load more or less then the default 20 things per page</small>
+            </label>
+        </div>
+        <div class="form-group">
+            <label class="form-check-label">
+                Scroll threshold in px
+                <input type="number" min="1" max="2000" name="scrollThreshold">
+                <small class="form-text text-muted">When to trigger the loading of the next page.
+                </small>
+            </label>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="gallery">
+                Enhanced Gallery
+                <small class="form-text text-muted">Replace the photos in the gallery with higher resolution ones and
+                    make the gallery larger.
+                </small>
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="fixedHeader">
+                Sticky Header
+                <small class="form-text text-muted">Make the navigation and searchbox stick to the top of the screen.
+                </small>
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="flatdesign">
+                Flat Design
+                <small class="form-text text-muted">Complete overhaul of the Thingiverse-UI for a more modern look.
+                </small>
+            </label>
+        </div>
+
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="enhancedThingFiles">
+                Enhanced "Thing Files"
+                <small class="form-text text-muted">Replace the files table with cards and bigger images.
+                </small>
+            </label>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+<!--        <div class="form-group form-check">-->
+<!--            <label class="form-check-label">-->
+<!--                <input class="form-check-input" type="checkbox" name="exploreFilter">-->
+<!--                Mark files as printed-->
+<!--                <small class="form-text text-muted">Remember the filter states of all selectboxes while changing filter-->
+<!--                    in the explore view.-->
+<!--                </small>-->
+<!--            </label>-->
+<!--        </div>-->
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="exploreFilter">
+                Remember filter states in explore view
+                <small class="form-text text-muted">Remember the filter states of all selectboxes while changing filter
+                    in the explore view.
+                </small>
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="defaultPopularCategory">
+                Change default sorting of category to popular
+                <small class="form-text text-muted">Change default sorting of category to popular, instead of new.
+                </small>
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="defaultPopularSearch">
+                Change default sorting of search to popular
+                <small class="form-text text-muted">When you search by popular instead of relevant, chances are higher
+                    you get results in the search.
+                </small>
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="flappeningContentBox">
+                Hide flickering Thing-Detail-Navigation
+                <small class="form-text text-muted">Hide the small sticky navigation in the thingiverse detail view to
+                    prevent the flickering bug.
+                </small>
+            </label>
+        </div>
+    </div>
+</div>
+
+<div id="status"></div>
+<input type="hidden" name="saved" value="1">
+<button id="save" class="btn">Save</button>
+<p class="sponsor-hint">Do you want to support the development of this extension?</p>
+<a href="https://paypal.me/bu2media" target="_blank" id="beer" class="btn btn-sponsor">Buy me a beer</a>
+<a href="https://amzn.to/2Q6cysS" target="_blank" id="affiliate" class="btn btn-sponsor">Amazon Affiliate</a>
+
+<script src="../js/vendor/jquery.min.js"></script>
+<script src="../js/vendor/bootstrap.min.js"></script>
+<script src="../js/scripts/utility.js"></script>
+<script src="../js/scripts/options.js"></script>
+</body>
+</html>
