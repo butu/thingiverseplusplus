@@ -1,3 +1,5 @@
+![Thingiverse ++](assets/icon128.png)
+
 # Thingiverse ++
 
 > a chrome extension to enhance thingiverse and add new features like autologin, better search, better thing files and flat design
