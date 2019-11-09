@@ -9,9 +9,13 @@
 Enhance your thingiverse.com experience with auto login, better infinite scrolling, a modern design and several bugfixes.
 Saves your login session, better infinite-scrolling, better gallery with bigger images, better file download list, fixed header, better search and a new flat design
 
+![Thingiverse ++](assets/settings.gif)
+
 Be aware that when you use the auto login feature, your username and password are stored  in clear text in your local storage. If you do not want this, don't use this feature.
 
 Also be aware that makerbot/thingiverse.com amazon affiliate links are replaced with the developers affiliate links to support the development of this extension.
+
+![Thingiverse ++](assets/search.png)
 
 ## License
 
