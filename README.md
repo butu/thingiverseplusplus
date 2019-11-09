@@ -4,7 +4,7 @@
 
 > a chrome extension to enhance thingiverse and add new features like autologin, better search, better thing files and flat design
 
-[![Chrome Users](https://img.shields.io/chrome-web-store/users/dahlionodmjcndnmenoahbbildkledde?label=chrome-users&style=flat-square)](https://chrome.google.com/webstore/detail/thingiverse-%20%20/dahlionodmjcndnmenoahbbildkledde) [![Chrome Users](https://img.shields.io/chrome-web-store/stars/dahlionodmjcndnmenoahbbildkledde?label=chrome-rating&style=flat-square)](https://chrome.google.com/webstore/detail/thingiverse-%20%20/dahlionodmjcndnmenoahbbildkledde) [![Chrome Users](https://img.shields.io/github/license/butu/thingiverseplusplus?style=flat-square)](https://chrome.google.com/webstore/detail/thingiverse-%20%20/dahlionodmjcndnmenoahbbildkledde)
+[![Chrome Users](https://img.shields.io/chrome-web-store/users/dahlionodmjcndnmenoahbbildkledde?label=chrome-users&style=flat-square)](https://chrome.google.com/webstore/detail/thingiverse-%20%20/dahlionodmjcndnmenoahbbildkledde) [![Chrome Users](https://img.shields.io/chrome-web-store/stars/dahlionodmjcndnmenoahbbildkledde?label=chrome-rating&style=flat-square)](https://chrome.google.com/webstore/detail/thingiverse-%20%20/dahlionodmjcndnmenoahbbildkledde) [![Chrome Users](https://img.shields.io/github/license/butu/thingiverseplusplus?style=flat-square)](https://opensource.org/licenses/GPL-3.0)
 
 ## Features
 Enhance your thingiverse.com experience with auto login, better infinite scrolling, a modern design and several bugfixes.
