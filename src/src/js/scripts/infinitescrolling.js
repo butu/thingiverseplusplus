@@ -24,20 +24,30 @@ chrome.storage.sync.get(['infinitescrolling', 'scrollThreshold', 'itemsPerPage']
             document.addEventListener("DOMContentLoaded", function () {
 
                 if ($('.explore').length > 0) {
-
+                    let subcat = null;
                     let type = $('select[name=type]').val();
                     let cat = $('select[name=cat]').val();
-                    let subcat = $('select[name=subcat]:not(.hidden)').val();
+
+                    if ($('select[name=subcat]:not(.hidden)').length > 0) {
+                        let subcat = $('select[name=subcat]:not(.hidden)').val();
+                    }
+
 
                     infiniteScroll = $('.item-container .items-page').infiniteScroll(Object.assign(scrollSettings, {
                         path: function () {
                             let page = this.pageIndex + 1;
-                            return 'https://www.thingiverse.com/ajax/things/paginate'
+                            let path = 'https://www.thingiverse.com/ajax/things/paginate'
                                 + '?page=' + page
                                 + '&per_page=' + itemsPerPage
-                                + '&type=' + type
-                                + '&cat=' + cat
-                                + '&subcat=' + subcat;
+                                + '&type=' + type;
+
+                            if (cat) {
+                                path = path + '&cat=' + cat;
+                            }
+                            if (subcat) {
+                                path = path + '&subcat=' + subcat;
+                            }
+                            return path;
                         },
                     }));
                 } else if ($('#search-page-form').length > 0) {
