@@ -1,6 +1,6 @@
 {
     "name": "Thingiverse ++",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Benjamin Butschell",
     "manifest_version": 2,
     "description": "Enhance your thingiverse.com experience with auto login, better infinite scrolling, a modern design and several bugfixes.",
