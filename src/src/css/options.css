@@ -44,7 +44,7 @@ img.logo {
 }
 
 #beer {
-    background-image: url(/src/src/images/beer.svg);
+    background-image: url(/src/images/beer.svg);
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: 14px center;
@@ -52,7 +52,7 @@ img.logo {
 }
 
 #affiliate {
-    background-image: url(/src/src/images/amazon.svg);
+    background-image: url(/src/images/amazon.svg);
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: 14px center;
