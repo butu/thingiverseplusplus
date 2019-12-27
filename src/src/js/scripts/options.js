@@ -27,7 +27,6 @@ function updateState(message) {
 function restore() {
     chrome.storage.sync.get(null,
         function (items) {
-        console.log(items);
             $('input,select').each(function (index, element) {
                 let key = $(element).attr('name');
                 let type = $(element).attr('type');
