@@ -40,5 +40,6 @@ function restore() {
             });
         });
 }
+
 document.addEventListener('DOMContentLoaded', restore);
 document.getElementById('save').addEventListener('click', save);

@@ -1,6 +1,7 @@
 div#main {
     padding-top: 60px;
 }
+
 .site-header {
     position: fixed;
     z-index: 100;

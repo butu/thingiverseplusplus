@@ -40,7 +40,7 @@ chrome.storage.sync.get(['infinitescrolling', 'scrollThreshold', 'itemsPerPage']
                                 + '&subcat=' + subcat;
                         },
                     }));
-                } else if($('#search-page-form').length > 0) {
+                } else if ($('#search-page-form').length > 0) {
                     infiniteScroll = $('.item-container').infiniteScroll(Object.assign(scrollSettings, {
                         path: function () {
                             let page = this.pageIndex + 1;
@@ -50,7 +50,7 @@ chrome.storage.sync.get(['infinitescrolling', 'scrollThreshold', 'itemsPerPage']
                                 + '&per_page=' + itemsPerPage;
                         },
                     }))
-                } else if($('.thingcollection-page').length > 0) {
+                } else if ($('.thingcollection-page').length > 0) {
 
                     let id = $('.justify .icon-like').data('id');
                     infiniteScroll = $('.item-container .result-page').infiniteScroll(Object.assign(scrollSettings, {
